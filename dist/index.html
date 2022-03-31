@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Firebase 9 </title>
+  </head>
+  <body>
+    <h1>Getting Started with firebase 9</h1>
+    <h3>Firebase FireStore</h3>
+    <form class="add">
+      <label for="">Books Name</label>
+      <input type="text" name="booksName" required><br/>
+      <label for="">Author</label>
+      <input type="text" name="author" required><br/>
+      <label for="">Price</label>
+      <input type="text" name="price" required><br/>
+      <label for="">isbn</label>
+      <input type="text" name="isbn" required><br/>
+      <button type="submit" name="button">Add New Book</button><br/><br/><hr/>
+    </form>
+    <form class="delete">
+      <label for="">document id</label>
+      <input type="text" name="id">
+      <button type="submit" name="button">Delete Books</button>
+    </form>
+    <br><br><br>
+    <form class="update">
+      <label for="">document id</label>
+      <input type="text" name="updateId" value="">
+      <button type="submit" name="button">Update books</button>
+
+    </form>
+    <form class="auth">
+      <label for="">email</label>
+      <input type="email" name="email">
+      <br/><br/>
+      <label for="">Password</label>
+      <input type="password" name="password" >
+      <button type="submit" name="button">Sign up</button>
+
+    </form>
+    <script type="text/javascript" src="../dist/bundle.js">
+
+    </script>
+  </body>
+</html>
